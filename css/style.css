@@ -1,5 +1,5 @@
 header {
-    background-image: url("../img-p1/img-background-header.jpg");
+    background-image: url("/img/img-background-header.jpg");
     background-size:cover;
     background-position-x: center;
     background-position-y: 80%;
@@ -21,7 +21,8 @@ nav ul {
     list-style-type:none;
     color:white;
     font-size:1.2em;
-    display:flex;justify-content:center;
+    display:flex;
+    justify-content:center;
     background-color: rgba(255, 182, 193, 0.537);
     gap: 2.5em;
     padding-block: 0.4em;
@@ -92,14 +93,28 @@ button:hover {
     }
 }
 
-
 h2 {
-    display:flex;justify-content:center;
+    display:flex;
+    justify-content:center;
     margin-top:0.5em;
     background-color: rgba(255, 182, 193, 0.537);
     padding-top:1.5em;
     padding-bottom:1.5em;
     font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+h2, h3 {
+    font-weight: bold;
+}
+
+h3 {
+    font-style: italic;
+}
+
+.intro-tekst {
+    padding-left:20vw;
+    padding-right:10vw;
+    padding-top: 5vh;   
 }
 
 .alineas {
@@ -109,17 +124,15 @@ h2 {
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
-
-.intro-tekst {
-    padding-left:20vw;
-    padding-right:10vw;
-    padding-top: 5vh;   
-}
-
 .alineas-tekst {
     padding-right: 5vw;
     padding-left: 7vw;
     padding-top: 5vh;
+}
+
+.link {
+    text-decoration: underline;
+    color:blue
 }
 
 .afbeeldingen {
@@ -129,3 +142,38 @@ h2 {
     padding-right: 1vw;
     border-radius: 50%;
 }
+
+.img-autowegen {
+    display: block; 
+    margin: 0 auto;
+    width: 86vw;
+    padding-top: 3vh;
+}
+
+.container-img {
+    display: inline-block;
+    background-color:#f4f0e8 ;
+    text-align: center;
+    padding: 1em;
+    margin: 0.5em;
+    margin-top: 2em;
+    border-radius: 8%;
+    width: 28.2%;
+    box-sizing: border-box;
+}
+
+.aboutme-img {
+    max-width: 100%;
+    border-radius: 5%;
+}
+
+.img-text {
+    margin-top: 5vh;
+    color: black;
+}
+
+.flex-container {
+    display: flex;
+    justify-content: center;
+}
+
